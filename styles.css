@@ -1,0 +1,65 @@
+body {
+    font-family: system-ui, sans-serif;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #fefdf8;
+    color: #a2690c;
+}
+
+#flex_container {
+    height: 100vh;
+}
+
+#flex_container, #links_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-left: 25px;
+}
+
+h1, h3 {
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #a2690c;
+}
+
+#profile-pic {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+}
+
+#divider-pic {
+    margin: 10px 0 25px 0;
+    width: 400px;
+}
+
+#face-name-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.link-card {
+    border: 2px solid #a2690c;
+    border-radius: 5px;
+    width: 400px;
+    height: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
