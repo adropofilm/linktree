@@ -7,8 +7,10 @@
         <meta name="author" content="Fatima Mohamed">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
+        <script src="index.js"></script>
+        <script src="https://kit.fontawesome.com/94032701a9.js" crossorigin="anonymous"></script>
     </head>
-    <body>
+    <body class="light-mode-body">
         <div id="flex_container">
           <div id="face-name-card">
             <img src="profile_pic.jpg" alt="Picture of Fatima Smiling" id="profile-pic" />
@@ -17,19 +19,26 @@
               <h3>software tester <br> turned developer</h3>
             </div>
           </div>
-          <img src="divider.svg" alt="divider with diagonal lines" id="divider-pic" >
           <div id="links_container">
-            <a href="https://github.com/adropofilm">Github</a>
-            <a href="https://www.linkedin.com/in/fatimamo/">LinkedIn</a>
-            <a href="https://twitter.com/fatumtiii">Twitter</a>
-            <a href="https://www.tiktok.com/@fatumtiii">TikTok</a>
-            <a href="https://www.instagram.com/fatumtiii/">Instagram</a>
-            <a href="https://www.fatimamo.com/">Hashnode</a>
+            <a href="https://github.com/adropofilm" class="light-mode-a">Github</a>
+            <a href="https://www.linkedin.com/in/fatimamo/" class="light-mode-a">LinkedIn</a>
+            <a href="https://twitter.com/fatumtiii" class="light-mode-a">Twitter</a>
+            <a href="https://www.tiktok.com/@fatumtiii" class="light-mode-a">TikTok</a>
+            <a href="https://www.instagram.com/fatumtiii/" class="light-mode-a">Instagram</a>
+            <a href="https://www.fatimamo.com/" class="light-mode-a">Hashnode</a>
           </div>
-          <!-- <label class="switch">
-            <input type="checkbox" checked>
-            <span class="slider round"></span>
-          </label> -->
+          <img src="divider_light.svg" alt="divider with diagonal lines" id="divider-pic">
+          <div id="footer-container">
+            <h4>made with ♥ by fatima m</h4>
+            <div id="mode-container">
+              <i class="fa-solid fa-moon"></i>
+              <label id="switch">
+                <input type="checkbox" checked>
+                <span class="slider round" id="slider-circle"></span>
+              </label>
+              <i class="fa-solid fa-sun"></i>
+            </div>
+          </div>
         </div>
     </body>
 </html>
