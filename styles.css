@@ -21,7 +21,7 @@ body {
 
 #links_container {
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
     width: 100%;
 }
 
@@ -30,8 +30,16 @@ h1 {
     margin-left: 25px;
 }
 
+.ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+}
+
 h1, h3 {
     text-align: right;
+}
+
+.gudea {
+  font-family: 'Gudea', sans-serif;
 }
 
 a {
@@ -44,6 +52,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-weight: bold;
 }
 
 a:hover {
@@ -53,8 +62,8 @@ a:hover {
 }
 
 #profile-pic {
-    width: 175px;
-    height: 175px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
 }
 
